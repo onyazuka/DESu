@@ -6,6 +6,14 @@ C++ implementation of DES - Data Encryption Standart algorithm.<br/>
 Supports Triple DES, also can use some of your cores.<br/>
 Tested and optimized for msvc 2017 and gcc.<br/>
 
+<h2>MSVC compilation</h2>
+<ol>
+  <li>Download repository</li>
+  <li>Run DES.sln</li>
+  <li>Press Ctrl+F5</li>
+  <li>Enjoy</li>
+</ol>
+
 <h2>Usage</h2>
 
 <b>Usage</b>: DES mode [settings] keys_file input_file output_file<br/>
