@@ -184,27 +184,6 @@ int main(int argc, char* argv[])
 	}
 	clock_t after = clock();
 	std::cout << "Elapsed: " << (after - before) << " ms" << std::endl;
-	
-
-	/*uint64_t block = 15611234987619621009;
-	uint64_t key = 67511243098118762;
-    int n = 200000;
-	clock_t before = clock();
-	for (int i = 0; i < n; ++i)
-	{
-		block = 15611234987619621009;
-		key = 67511243098118762;
-        //std::cout << "Initial block: " << std::to_string(block) << std::endl;
-		DESEncrypter encrypter(block, key, 0);
-		uint64_t encr = encrypter.run();
-        //std::cout << "Encrypted block: " << std::to_string(encr) << std::endl;
-        //key = 67511243098118762;
-        //DESEncrypter decrypter(encr, key, 1);
-        //uint64_t decr = decrypter.run();
-        //std::cout << "Decrypted block: " << std::to_string(decr) << std::endl;
-	}
-	clock_t after = clock();
-	std::cout << "Elapsed: " << (after - before) << std::endl;*/
 
 	return 0;
 }
